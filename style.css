@@ -1,0 +1,107 @@
+body {
+margin-top: -8px;
+margin-left: -8px;
+}
+
+@font-face {
+font-family: myFirstFont;
+src: url(Helvetica.ttf);
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-image: url("bg.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 101%;
+position: fixed;
+top: 0;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+font-family: myFirstFont;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #5580E9;
+color: white;
+}
+
+li a.active {
+background-color: #0074E1;
+color: white;
+}
+
+
+table.homescroll1 {
+width: 101%;
+height: 650px;
+background-image: url("bg.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+text-align: center;
+margin-top: 45px;
+}
+
+h1.homescroll1 {
+font-family: myFirstFont;
+font-weight: normal;
+line-height: 45px; 
+text-align: center;
+margin-bottom: 150px;
+color: white;
+}
+h3.homescroll1 {
+font-family: myFirstFont;
+font-weight: normal;
+line-height: 45px; 
+text-align: center;
+margin-top: -150px;
+color: white;
+}
+
+
+table.homescroll2 {
+width: 101%;
+height: 680px;
+background-color: #1B9CE5;
+text-align: center;
+}
+
+table.homescroll3 {
+width: 101%;
+height: 120px;
+background-color: #0074E1;
+text-align: center;
+}
+
+h3.copyright {
+font-family: myFirstFont;
+font-weight: normal;
+line-height: 45px; 
+text-align: center;
+color: white;
+}
+
+a {
+font-family: myFirstFont;
+color: white;
+}
+
+button {
+background-color: #1B9CE5;
+border: 1px solid #FFFFFF;
+color: white;
+}
